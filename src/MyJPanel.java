@@ -14,7 +14,7 @@ public class MyJPanel extends JPanel implements MouseMotionListener{
 	
 	public MyJPanel(){
 		addMouseMotionListener(this);
-		centerX = centerY = 0;
+		centerX = centerY = 250;
 	}
 	protected void paintComponent(Graphics g){
 		super.paintComponent(g);
